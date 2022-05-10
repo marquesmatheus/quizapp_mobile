@@ -9,7 +9,7 @@ class DBHelper (context:Context):SQLiteAssetHelper(context, DB_NAME,null, DB_VER
     companion object{
         private var instance:DBHelper?=null
 
-        private val DB_NAME = "matheus20196.db"
+        private val DB_NAME = "database.db"
         private val DB_VER = 6
 
         @Synchronized
