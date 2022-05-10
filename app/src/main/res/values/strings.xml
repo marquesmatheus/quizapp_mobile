@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ProfData Quiz</string>
+    <string name="title_activity_question">Atividade - Quiz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_text">Text</string>
+
+    <string name="howto"><b><h1>Como usar?</h1></b> \n\n Escolha uma Categoria para praticar, saiba que pode haver mais de uma alternativa correta. \n Após escolher a(s) alternativa(s), movimente seu dedo para os lados para responder a questão. \n A alternativa correta sempre será demarcada em vermelho.\n
+
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

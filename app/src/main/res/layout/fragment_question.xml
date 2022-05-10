@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".QuestionFragment">
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- imagem tava 200dp -->
+    <FrameLayout
+        android:id="@+id/layout_image"
+            android:layout_width="match_parent"
+            android:paddingBottom="10sp"
+            android:layout_height="160dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_question"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+</FrameLayout>
+
+    <TextView
+            android:id="@+id/txt_question_text"
+            android:text="Qual é a sua escolha??"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:paddingTop="5sp"
+            android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ckb_A"
+            android:text="Resposta A"
+            android:textSize="11sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ckb_B"
+            android:text="Resposta B"
+            android:textSize="11sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ckb_C"
+            android:text="Resposta C"
+            android:layout_width="wrap_content"
+            android:textSize="11sp"
+            android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/ckb_D"
+            android:text="Resposta D"
+            android:layout_width="wrap_content"
+            android:textSize="11sp"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
+
+</RelativeLayout>
